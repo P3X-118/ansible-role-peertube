@@ -28,7 +28,7 @@ peertube_hostname: ""
 # At the moment, this can only be set to `/`. It doesn't seem like PeerTube supports being hosted at a subpath.
 peertube_path_prefix: /
 
-peertube_container_image: "{{ peertube_container_image_registry_prefix }}chocobozzz/peertube:{{ peertube_container_image_tag }}"
+peertube_container_image: "{{ peertube_container_image_registry_prefix }}legitservices/peertube:{{ peertube_container_image_tag }}"
 peertube_container_image_tag: "{{ peertube_version }}-{{ peertube_distro_variant }}"
 peertube_container_image_registry_prefix: "{{ peertube_container_image_registry_prefix_upstream }}"
 peertube_container_image_registry_prefix_upstream: "{{ peertube_container_image_registry_prefix_upstream_default }}"
